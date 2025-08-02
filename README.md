@@ -56,8 +56,8 @@ Before you begin, ensure you have the following installed:
 
 ```bash
 # Clone the repository
-git clone https://github.com/pnnv/trust_assist.git
-cd trust_assist
+git clone https://github.com/spr7a/trust_assistant.git
+cd trust_assistant
 
 # Install backend dependencies
 cd backend
@@ -75,7 +75,7 @@ Create a `.env` file in the `backend` directory:
 
 ```env
 # Database
-MONGODB_URI=mongodb://localhost:696969/trust_assist
+MONGODB_URI=mongodb://localhost:696969/trust_assistant
 
 # Authentication
 JWT_SECRET=your-super-secret-jwt-key-here
@@ -107,7 +107,7 @@ npm run dev
 ## 📁 Project Architecture
 
 ```
-trust_assist/
+trust_assistant/
 ├── 📁 backend/                 # Server-side application
 │   ├── 📁 src/
 │   │   ├── 📁 controllers/     # Route controllers
@@ -188,6 +188,6 @@ Special thanks to the amazing open-source community and these fantastic tools:
 <!-- 
 **Built with ❤️ by the Trust Assistant Team** -->
 
-[⭐ Star this repo](https://github.com/pnnv/trust_assist) • [🐛 Report Bug](https://github.com/pnnv/trust_assist/issues) • [💡 Request Feature](https://github.com/pnnv/trust_assist/issues)
+[⭐ Star this repo](https://github.com/spr7a/trust_assistant) • [🐛 Report Bug](https://github.com/spr7a/trust_assistant/issues) • [💡 Request Feature](https://github.com/spr7a/trust_assistant/issues)
 
 </div>
